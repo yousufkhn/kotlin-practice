@@ -1,4 +1,4 @@
-package `Day 2`
+package Day3
 
 fun main() {
     val numbers = arrayOf(1,2,3,4,5)
@@ -16,4 +16,18 @@ fun main() {
 
     println("The first number is $firstNumber")
     println("The first word is $firstWord")
+
+    numbers[0] = 2
+    println(numbers[0])
+
+
+    for (num in numbers){
+        println(num)
+    }
+
+    val matrix:Array<Array<Int>> = arrayOf(arrayOf(1,2,3), arrayOf(4,5,6))
+
+    println("element at [0,1] is --> ${matrix[0][1]}")
+
+    //homework make and print a 3x3 matrix all together
 }
