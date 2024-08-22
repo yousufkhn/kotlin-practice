@@ -45,6 +45,24 @@ fun main(){
     a%=b
     println("$a")
 
+    // unary operators
+
+    a = 10
+    println("${+a}")
+
+    println("${-a}")
+
+    println("${++a}")
+
+    println("${--a}")
+
+    println("${!true}")
+
+
+    // logical operators
+
+    println("")
+
 
 
 }
