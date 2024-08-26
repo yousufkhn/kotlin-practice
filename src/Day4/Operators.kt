@@ -61,7 +61,6 @@ fun main(){
 
     // logical operators
 
-    println("")
 
 
 
