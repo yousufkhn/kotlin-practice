@@ -1,4 +1,4 @@
-package Day5
+package Day5_26Aug2024
 import java.util.Scanner
 
 fun main(){
